@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#000000"/>
+  <!-- HUGE Clipboard (violet gradient) — upper-left, dominant -->
+  <rect x="40" y="70" width="320" height="380" rx="24" fill="url(#grad)"/>
+  <!-- Clipboard clip -->
+  <rect x="140" y="40" width="120" height="60" rx="14" fill="url(#grad)" stroke="#000000" stroke-width="10"/>
+  <!-- Checklist lines -->
+  <rect x="90" y="150" width="24" height="24" rx="6" fill="#000000" opacity="0.4"/>
+  <rect x="130" y="152" width="180" height="18" rx="9" fill="#000000" opacity="0.3"/>
+  <rect x="90" y="200" width="24" height="24" rx="6" fill="#000000" opacity="0.4"/>
+  <rect x="130" y="202" width="140" height="18" rx="9" fill="#000000" opacity="0.3"/>
+  <rect x="90" y="250" width="24" height="24" rx="6" fill="#000000" opacity="0.4"/>
+  <rect x="130" y="252" width="170" height="18" rx="9" fill="#000000" opacity="0.3"/>
+  <rect x="90" y="300" width="24" height="24" rx="6" fill="#000000" opacity="0.4"/>
+  <rect x="130" y="302" width="120" height="18" rx="9" fill="#000000" opacity="0.3"/>
+  <!-- Checkmarks in first two boxes -->
+  <path d="M94,164 L100,172 L110,154" fill="none" stroke="#84cc16" stroke-width="5" stroke-linecap="round"/>
+  <path d="M94,214 L100,222 L110,204" fill="none" stroke="#84cc16" stroke-width="5" stroke-linecap="round"/>
+  <!-- Robot (lime green, bottom-right, smaller) -->
+  <rect x="280" y="330" width="190" height="120" rx="32" fill="none" stroke="#84cc16" stroke-width="24"/>
+  <circle cx="345" cy="390" r="14" fill="#84cc16"/>
+  <circle cx="415" cy="390" r="14" fill="#84cc16"/>
+  <rect x="367" y="278" width="16" height="55" rx="8" fill="#84cc16"/>
+  <circle cx="375" cy="262" r="26" fill="#84cc16"/>
+  <circle cx="375" cy="262" r="12" fill="#000000"/>
+</svg>
